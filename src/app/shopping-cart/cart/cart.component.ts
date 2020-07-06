@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { MessengerService } from 'src/app/services/messenger.service';
-import { AngularFireList, AngularFireDatabase } from 'angularfire2/database';
 @Component({
   selector: 'app-cart',
   templateUrl: './cart.component.html',
