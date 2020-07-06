@@ -9,8 +9,8 @@ export class CartComponent implements OnInit {
 cartItems = [];
 
 cartTotal = 0;
-  cartQty: number;
-  show: boolean;
+  cartQty = 0;
+  show: boolean = false;
 
   constructor(private messenger: MessengerService) { }
   ngOnInit() {
@@ -57,7 +57,9 @@ for(let i in this.cartItems) {
        this.cartTotal += item.qty * item.price;
      });
 
-   
+     this.cartQty = 0;
+     this.cartQty = this.cartItems.reduce((acc,item) => 
+         acc + item.qty,0);
 
   }
 
@@ -97,7 +99,9 @@ console.log('final data ---====>>',this.cartItems)
     this.cartTotal += item.qty * item.price;
   });
 
-  
+  this.cartQty = 0;
+this.cartQty = this.cartItems.reduce((acc,item) => 
+    acc + item.qty,0);
   
 
  }

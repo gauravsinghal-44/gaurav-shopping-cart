@@ -17,6 +17,7 @@
 
 <div class="footer">
     <p><strong>Total : {{cartTotal}}</strong></p>
+    <p><strong>Qty : {{cartQty}}</strong></p>
     <button class="chk-btn" (click)="checkout()">Checkout</button>
 </div>
 <ng-container *ngIf="show"><app-modal [amount]="cartTotal"></app-modal></ng-container>
