@@ -9,7 +9,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CartComponent } from './shopping-cart/cart/cart.component';
 import { CartItemComponent } from './shopping-cart/cart-item/cart-item.component';
 import { environment } from 'src/environments/environment';
-import { CheckoutComponent } from './shopping-cart/checkout/checkout.component';
 import { HeaderComponent } from './header/header.component';
 import { ModalComponent } from './modal/modal.component';
 @NgModule({
@@ -18,7 +17,6 @@ import { ModalComponent } from './modal/modal.component';
     HomeComponent,
     CartComponent,
     CartItemComponent,
-    CheckoutComponent,
     HeaderComponent,
     ModalComponent
   ],
