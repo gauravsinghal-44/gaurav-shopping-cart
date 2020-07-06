@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyByH9DWBVgqaI3hjqFXi_Fu2exU2Z_CTMg',
+    authDomain: 'foodknight-8041d.firebaseapp.co',
+    databaseURL: 'https://foodknight-8041d.firebaseio.com',
+    projectId: 'foodknight-8041d',
+    storageBucket: 'foodknight-8041d.appspot.com',
+    messagingSenderId: '391164789513',
+    appId: '1:391164789513:web:438bf94386548a784989d8',
+    measurementId: 'G-LR64HS1SYR'
+  }
 };
 
 /*

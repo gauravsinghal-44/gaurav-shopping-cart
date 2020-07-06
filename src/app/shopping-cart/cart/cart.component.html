@@ -1,0 +1,27 @@
+<div *ngIf="cartItems.length === 0" class= "alert">No items Added to cart</div>
+
+<div *ngIf="cartItems.length > 0" class="cart">
+    <h5>Your Orders : </h5>
+    <hr>
+   
+   
+    <div *ngFor = "let cart of cartItems">
+        <app-cart-item [cartItem]="cart"></app-cart-item>
+    </div>
+
+
+    <p class="total"><strong>Total : {{cartTotal}}</strong></p>
+   
+    
+    
+</div>
+
+
+<div class="footer">
+    <p><strong>Total : {{cartTotal}}</strong></p>
+    <button class="chk-btn" (click)="checkout(this.cartTotal)">Checkout</button>
+</div>
+
+
+
+<ng-container *ngIf="show"><app-modal [amount]="cartTotal"></app-modal></ng-container>

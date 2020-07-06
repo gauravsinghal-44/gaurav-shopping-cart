@@ -1,0 +1,47 @@
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="main">
+
+
+
+      <div style="" class="product-list">
+        <div class="items-container" *ngFor="let d of data">
+          <div class="media">
+            <div class="image"><img src="{{d.img_url}}" alt="placeholder" width="80px" height="80px">
+            <p>{{d.offerText}} % OFF</p>
+            </div>
+          </div>
+              <div class="content">
+                <ul>
+                  <li class="title">{{d.brandName}}</li>
+                  <li>{{d.ProductName}}</li>
+                  <li>{{d.quantity}}</li>
+                  <li>MRP {{d.MRP}}</li>
+                  <li class="price">Rs {{d.Price}}</li>
+                  <button class="btn" (click)="handleAddToCart(d)">Add to cart</button>
+                  <button class="btn" (click)="handleAddToCart(d)">+</button>
+                  <button class="btn" (click)="handleSubtract(d)">-</button>
+                </ul>
+              
+              
+              </div>
+         
+        </div>
+      </div>
+     
+    
+    
+    <div class="cart-container">
+      <app-cart></app-cart>
+    </div>
+    
+    <div class="clear"></div>
+            
+    </div>
+             
+  </body>
+</html>
