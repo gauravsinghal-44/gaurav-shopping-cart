@@ -109,6 +109,6 @@ this.cartQty = this.cartItems.reduce((acc,item) =>
 
   
 checkout(){
-  this.show  = true;
+  this.show  = !this.show;
 }
 }

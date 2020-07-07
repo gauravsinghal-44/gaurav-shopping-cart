@@ -1,4 +1,10 @@
-<div *ngIf="cartItems.length === 0" class= "alert">No items Added to cart</div>
+<div *ngIf="cartItems.length === 0">
+    <div style="text-align: center;padding-top: 30px;padding-left:200px;position: fixed;">
+    <img src="https://img.icons8.com/bubbles/100/000000/shopping-cart.png"/>
+    <p>Your Cart Is Empty ! </p>
+    <p>Please Add Items into your cart !</p>
+</div>
+</div>
 
 <div *ngIf="cartItems.length > 0" class="cart">
     <h5>Your Orders : </h5>
@@ -16,8 +22,14 @@
 
 
 <div class="footer">
+    <div style="float: left;
+    padding: 0px 42px;">
     <p><strong>Total : {{cartTotal}}</strong></p>
     <p><strong>Qty : {{cartQty}}</strong></p>
+</div>
+<div style="float: right;
+padding: 26px 60px;">
     <button class="chk-btn" (click)="checkout()">Checkout</button>
 </div>
-<ng-container *ngIf="show"><app-modal [amount]="cartTotal"></app-modal></ng-container>
+</div>
+<ng-container *ngIf="show"><app-modal [amount]="cartTotal" [modal]="show"></app-modal></ng-container>

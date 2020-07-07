@@ -17,7 +17,7 @@
 "quantity" : "1 L",
 "Price" : 540,
 "MRP" : 600,
-"img_url" : "https://4.imimg.com/data4/SF/EN/ANDROID-68205725/product-500x500.jpeg",
+"img_url" : "https://images-na.ssl-images-amazon.com/images/I/71H23FTaCaL._SL1500_.jpg",
 "offerText" : 10
 },
 
@@ -28,7 +28,7 @@
 "quantity" : "1 L",
 "Price" : 450,
 "MRP" : 500,
-"img_url" : "https://4.imimg.com/data4/SF/EN/ANDROID-68205725/product-500x500.jpeg",
+"img_url" : "https://images-na.ssl-images-amazon.com/images/I/61usWXp2KrL._SL1200_.jpg",
 "offerText" : 10
 },
 
@@ -39,7 +39,7 @@
 "quantity" : "1 Pack ",
 "Price" : 40,
 "MRP" : 40,
-"img_url" : "https://4.imimg.com/data4/SF/EN/ANDROID-68205725/product-500x500.jpeg",
+"img_url" : "https://cdn.shopclues.com/images1/thumbnails/107972/320/320/150127352-107972145-1592284630.jpg",
 "offerText" : 0
 },
 
@@ -50,7 +50,7 @@
 "quantity" : "1 Pack",
 "Price" : 5,
 "MRP" : 5,
-"img_url" : "https://4.imimg.com/data4/SF/EN/ANDROID-68205725/product-500x500.jpeg",
+"img_url" : "https://timesofindia.indiatimes.com/thumb/msid-76300461,width-1200,height-900,resizemode-4/.jpg",
 "offerText" : 0
 },
 
@@ -61,7 +61,7 @@
 "quantity" : "1 L",
 "Price" : 108,
 "MRP" : 120,
-"img_url" : "https://4.imimg.com/data4/SF/EN/ANDROID-68205725/product-500x500.jpeg",
+"img_url" : "https://images-na.ssl-images-amazon.com/images/I/41YDq-tchUL.jpg",
 "offerText" : 10
 },
 
@@ -72,18 +72,18 @@
 "quantity" : "1 L",
 "Price" : 196,
 "MRP" : 230,
-"img_url" : "https://4.imimg.com/data4/SF/EN/ANDROID-68205725/product-500x500.jpeg",
+"img_url" : "https://images-na.ssl-images-amazon.com/images/I/41HoiRLAsrL.jpg",
 "offerText" : 15
 },
 
 {
     "id": 8,
-"brandName" : "Tops",
+"brandName" : "Del Monte",
 "ProductName" : "Vinegar",
 "quantity" : "1 L",
 "Price" : 40,
 "MRP" : 40,
-"img_url" : "https://4.imimg.com/data4/SF/EN/ANDROID-68205725/product-500x500.jpeg",
+"img_url" : "https://images-na.ssl-images-amazon.com/images/I/51bfV7iAHLL._SL1000_.jpg",
 "offerText" : 0
 },
 
@@ -93,7 +93,7 @@
 "quantity" : "100 g",
 "Price" : 45,
 "MRP" : 50,
-"img_url" : "https://4.imimg.com/data4/SF/EN/ANDROID-68205725/product-500x500.jpeg",
+"img_url" : "https://images-na.ssl-images-amazon.com/images/I/715XDBQH2aL._SL1500_.jpg",
 "offerText" : 10
 },
 
@@ -104,7 +104,7 @@
 "quantity" : "200 g",
 "Price" : 225,
 "MRP" : 250,
-"img_url" : "https://4.imimg.com/data4/SF/EN/ANDROID-68205725/product-500x500.jpeg",
+"img_url" : "https://images-na.ssl-images-amazon.com/images/I/61aO6OFnOgL._SL1396_.jpg",
 "offerText" : 10
 }
 

@@ -46,9 +46,9 @@ h5{
     width: 100%;
     background-color: #ffffff;
     padding-left:20px;
-    text-align: left;
-    box-shadow:0px 14px 26px 14px #eee;   
-    padding-bottom:20px;
+    /* text-align: left; */
+    box-shadow: 0px 8px 60px 53px #eee;
+    padding-bottom: 0px;
  }
 
  .chk-btn{
@@ -66,9 +66,50 @@ h5{
         }
 
 
-@media screen and (max-width: 368px) {
+/* @media screen and (max-width: 368px) {
    .cart{
     
     width: 295px;
    }
-  }
+  } */
+
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .cart{
+    
+        width: 295px;
+       }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+     .cart{
+    
+    width: 295px;
+   }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .cart{
+    
+        width: 500px;
+       }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .cart{
+    
+        width: 500px;
+       }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .cart{
+    
+        width: 500px;
+       }
+}

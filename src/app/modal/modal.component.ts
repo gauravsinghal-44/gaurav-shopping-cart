@@ -7,14 +7,16 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ModalComponent implements OnInit {
   @Input() amount;
-  IsmodelShow  =false;
+  @Input() modal;
+  
   constructor() { }
 
   ngOnInit() {
+    console.log(this.modal)
   }
 
-
-  close(m){
-    this.IsmodelShow = true;
+  close(){
+    this.modal = !this.modal;
+    console.log(this.modal)
   }
 }
