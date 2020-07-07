@@ -135,7 +135,7 @@ padding: 26px 60px;
 @media only screen and (min-width: 992px) {
     .cart{
     
-        width: 500px;
+        width: 450px;
        }
        .left-div{
         float: left;
@@ -153,7 +153,7 @@ padding: 26px 60px;
 @media only screen and (min-width: 1200px) {
     .cart{
     
-        width: 500px;
+        width: 450px;
        }
        .left-div{
         float: left;
