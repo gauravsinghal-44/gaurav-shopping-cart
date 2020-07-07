@@ -66,6 +66,17 @@ h5{
         }
 
 
+        .left-div{
+            float: left;
+    padding: 0px 42px;
+        }
+
+
+        .right-div{
+            float: right;
+padding: 26px 60px;
+        }
+
 /* @media screen and (max-width: 368px) {
    .cart{
     
@@ -80,6 +91,17 @@ h5{
     
         width: 295px;
        }
+
+       .left-div{
+        float: left;
+padding: 0px 20px;
+    }
+
+
+    .right-div{
+        float: right;
+padding: 26px 60px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -94,8 +116,19 @@ h5{
 @media only screen and (min-width: 768px) {
     .cart{
     
-        width: 500px;
+        width: 696px;
        }
+
+       .left-div{
+        float: left;
+padding: 0px 42px;
+    }
+
+
+    .right-div{
+        float: right;
+padding: 26px 60px;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -104,6 +137,16 @@ h5{
     
         width: 500px;
        }
+       .left-div{
+        float: left;
+padding: 0px 42px;
+    }
+
+
+    .right-div{
+        float: right;
+padding: 26px 60px;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -112,4 +155,14 @@ h5{
     
         width: 500px;
        }
+       .left-div{
+        float: left;
+padding: 0px 42px;
+    }
+
+
+    .right-div{
+        float: right;
+padding: 26px 60px;
+    }
 }
